@@ -1,0 +1,30 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "install",
+			"problemMatcher": [],
+			"label": "npm: install",
+			"detail": "Install dependencies"
+		},
+		{
+			"type": "npm",
+			"script": "start",
+			"problemMatcher": [],
+			"label": "npm: start",
+			"detail": "Run npm start to execute index.js"
+		},
+		{
+			"label": "Open Firefox to localhost",
+			"type": "shell",
+			"command": "cmd.exe /c start firefox http://localhost:8001",
+			"problemMatcher": []
+		},
+		{
+			"label": "Start and Open Firefox",
+			"dependsOn": ["npm: start", "Open Firefox to localhost"],
+			"problemMatcher": []
+		}
+	]
+}

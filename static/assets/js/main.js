@@ -27,7 +27,7 @@ loadCSS('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icon
 });
 if(window.location.pathname === "/index.html" || window.location.pathname === "/") {
   console.log("[✔️] Index.html");
-  const options = ["Right-Click to access more features", "Set a custom background in settings.", "Tab Cloaking is highly recommended", "About:Blank Cloak is highly recommended", "This site was originally created as a joke", "Hosted on the best hardware!", "Do not share this link with anyone.", "Join our Discord for more cool things!", "Join our Discord for more cool things!", "© Copyright 2024 Doge Network. All Rights Reserved.", "Customize Doge by going to Settings > Themes", "Want more links? Our Discord provides tons of links!", "Want more links? Our Discord provides tons of links!", "Want more links? Our Discord provides tons of links!", "Hi, fowntain here!", ];
+  const options = ["Right-Click to access more features", "Set a custom background in settings.", "Tab Cloaking is highly recommended", "About:Blank Cloak is highly recommended", " Share this link with everyone.", "Customize by going to Settings > Themes", "4410 slater ave lil bro hecker", "Ali 6'2 with a hellcat trust", "Like a soon to be broken man once said, Either your perfect, or your not me.", "Show me rock head ahh", "First of all, I am Vegeta. Second of all, your not Vegeta. Third of all, you wanna be Vegeta but you cant be Vegeta because I'm Vegeta", "A man's legacy is not passed down through his words, but through his actions.",  ];
 
   function getRandomOption() {
     const randomNumber = Math.floor(Math.random() * options.length);
